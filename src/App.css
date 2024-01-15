@@ -3,6 +3,20 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
   box-sizing: border-box;
+  background: rgb(141,255,118);
+  background: linear-gradient(56deg, rgba(141,255,118,1) 0%, rgba(213,242,214,1) 100%);
+}
+
+main {
+  border-radius: 30px;
+  background-color: white;
+  width: 390px;
+  height: 700px;
+  margin: 80px 0 80px 0;
+  display: flex;
+  flex-direction: column;
 }
 
