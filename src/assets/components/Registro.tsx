@@ -10,6 +10,7 @@ import inLogo from '/linkedin-in.svg'
 const Registro = () => {
   return (
     <>
+    <h1>Crea una cuenta</h1>
     <SocialButton icon={faceLogo}/>
     <SocialButton icon={githubLogo}/>
     <SocialButton icon={inLogo}/>

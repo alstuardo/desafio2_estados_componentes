@@ -20,18 +20,20 @@ const Formulario: React.FC = () => {
 
   return (
     <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+      <Form.Group className="mb-3" controlId="formBasicInput">
         <Form.Label>o usa tu email para registrarte</Form.Label>
+        <Form.Control type="text" placeholder="Nombre" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Control type="email" placeholder="Correo electrónico" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label></Form.Label>
         <Form.Control type="password" placeholder="Contraseña" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label></Form.Label>
         <Form.Control type="password" placeholder="Confirma tu contraseña" />
       </Form.Group>
     

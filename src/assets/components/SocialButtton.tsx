@@ -1,4 +1,5 @@
 import Button from 'react-bootstrap/Button'
+import './SocialButton.css'
 
 interface SocialButton{
     icon: string;
@@ -7,7 +8,7 @@ interface SocialButton{
 const SocialButton: React.FC<SocialButton> = ({icon}) => {
     return (
         <>
-        <Button variant="light"><img src={icon}></img></Button>
+        <Button className='icon' variant="light"><img src={icon}></img></Button>
         </>
         )
 }
